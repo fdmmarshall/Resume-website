@@ -104,90 +104,25 @@ body {
  color: white;
  text-align: center;
  background-color: #233142;
+ padding-top: 100px;
+ padding-bottom: 100px;
 }
 
-/* Set height of body and the document to 100% to enable "full page tabs" */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Nanum Myeongjo, sans-serif;
+.PDF{
+padding-top: 80px;
+padding-bottom: 60px;
 }
 
-/* Style tab links */
-.tablink {
-  background-color: #f77754;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 33.3%;
-  font-family: Nanum Myeongjo;
-  font-size: 20px;
-}
-
-.tablink:hover {
-  background-color: #eee;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-
-#PDF{
-  background-color: #233142;
-  text-align: center;
-}
-.download-button{
-  text-align: center;
-  font-size: 50px;
-}
-#Objective{
-  background-color: #233142;
-  text-align: left;
-}
-#Skills{
-  background-color: #233142;
-  Text-align: center;
-}
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  font-family: Nanum Myeongjo, sans-serif;
-  font-size: 25px;
-  background-color: #eee;
-  color: #115173;
-  cursor: pointer;
-  padding-top: 20px;
-  padding: 30px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  text-align: center;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-
-.info{
-font-size: 20px;
+/*About section*/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 60px;
+  padding-bottom: 100;
+  align-items: baseline;
+  align-self: center;
+  align-content: center;
+  
 }
 
 #About {
@@ -197,8 +132,9 @@ font-size: 20px;
   color: #010101;
   background-color: #eeeeee;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 180px;
+  font-size: 16px;
 }
 
 
@@ -217,6 +153,7 @@ font-size: 20px;
   margin-right: 50px;
   margin-left: 50px;
 }
+
 .briefcase {
   border-radius: 50%;
   margin-top: 10px;
@@ -239,7 +176,7 @@ font-size: 20px;
   color: #ff5959;
   font-family: Nanum Myeongjo, sans-serif;
   font-weight: bold;
-  padding-top: 40px;
+  padding-top: 150px;
   padding-bottom: 40px;
   background-color: #eeeeee;
 }
@@ -320,5 +257,7 @@ input[type="submit"]:hover {
   font-size: 15px;
   font-family:  Nanum Myeongjo, sans-serif;
   background-color: #eeeeee;
-  padding-top: 20px
+  padding-top: 50px;
+  margin-bottom: 60px;
+  
 }
