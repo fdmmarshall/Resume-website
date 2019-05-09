@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/fdmmarshall/pen/eXmdEq.
+My personal website/ Resume site. My first and on-going project.
 
  
